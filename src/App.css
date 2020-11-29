@@ -1,0 +1,39 @@
+main {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 31%;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 39%;
+}
+
+button {
+  width: 150px;
+  font-size: 5rem;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+}
+
+#clear {
+  flex-basis: 450px;
+}
+
+#equals {
+  flex-basis: 300px;
+}
